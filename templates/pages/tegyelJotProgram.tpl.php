@@ -53,5 +53,5 @@
     </video>
 </div>
 <div>
-    <p align="center" ><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.8049746159554!2d19.03587671562594!3d47.47422977917607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741ddb6f651012d%3A0x174eb65d148247b9!2zQnVkYXBlc3QsIEJhcnTDs2sgQsOpbGEgw7p0IDkyLTk0YSwgMTExNQ!5e0!3m2!1shu!2shu!4v1648904735961!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    <p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.8049746159554!2d19.03587671562594!3d47.47422977917607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741ddb6f651012d%3A0x174eb65d148247b9!2zQnVkYXBlc3QsIEJhcnTDs2sgQsOpbGEgw7p0IDkyLTk0YSwgMTExNQ!5e0!3m2!1shu!2shu!4v1648904735961!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
 </div>
