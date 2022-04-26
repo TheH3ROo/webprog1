@@ -4,7 +4,7 @@ $ablakcim = array(
 );
 
 $fejlec = array(
-    'kepforras' => 'logo.png',
+    'kepforras' => 'logo1.png',
     'kepalt' => 'logo',
 	'cim' => 'Tegyél jót!',
 	'motto' => ''

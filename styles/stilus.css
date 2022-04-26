@@ -1,6 +1,6 @@
 header {
     border-radius: 10px;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     margin: 10px;
 }
@@ -11,7 +11,13 @@ header img {
 }
 
 h1{
+    font-style:oblique;
     text-align: center;
+    color: #f73c7a;
+}
+h2{
+    font-style:oblique;
+    color: #575757;
 }
 
 div#wrapper {
@@ -20,15 +26,20 @@ div#wrapper {
 
 aside {
     vertical-align: top;
+    position: sticky;
+    top: 0;
 }
 
 nav {
+    float: right;
     top: 0px;
     border-radius: 10px;
-    background-color: #FF6600;
-    width: 50%;
-    margin: 10px auto;
+    background-color: #ececec;
+    width: 90%;
+    margin: 0px auto 20px auto;
     padding: 0 15px;
+  
+
 }
 
 nav ul {
@@ -36,20 +47,25 @@ nav ul {
     margin: 0px;
     padding: 15px 0px;
     text-align: center;
+    
 }
 
 nav ul li {
-    padding: 0px 15px;
-    display: inline-block; 
+    padding: 5px 15px;
+    display: inline-block;
+    
 }
 
 nav ul li.active {
-    border-right: 5px solid blue;
+    border-right: 5px solid rgb(25, 133, 255);
+    border-radius: 5px;
+    
 }
 
 nav ul a {
+
     text-decoration: none;
-    color: blue;
+    color: rgb(25, 133, 255);
 }
 
 div#vidLeft{
@@ -58,21 +74,24 @@ div#vidLeft{
 }
 
 div#vidRight{
+
     width: 49%;
     float: right;
 }
 
 div#block {
     column-count: 1;
+    text-align: justify;
 }
 
 div#content {
+    font-style: italic;
     display:block;
     width: 50%;
     border-radius: 10px;
     margin: auto;
-    /* text-align: center; */
-    background-color: #99FFCC;
+    text-align: stretch;
+    background-color: #ffffff;
     padding: 15px;
 }
 
@@ -82,7 +101,8 @@ div#content img{
     height: auto;
     margin: 0 0 15px 15px;
     padding: 3px;
-    border: 3px solid blue;
+    border: 0px;
+    border-radius: 20px;
 }
 
 div#left img{
@@ -91,7 +111,8 @@ div#left img{
     height: auto;
     margin: 0 15px 15px 15px;
     padding: 3px;
-    border: 3px solid red;
+    border: 0px;
+    border-radius: 20px;
 }
 
 div#galeria{
@@ -99,19 +120,39 @@ div#galeria{
     width: 620px;
     text-align: center;
 }
-div#kep { 
+div#kep {
     display: inline-block;
     margin: 0 auto;
 }
 div#kep img {
     margin: 0 auto;
-    width: 200px; 
+    width: 200px;
     border: 0px;
 }
+button[type=button], input[type=submit], input[type=reset] {
+    background-color: #ececec;
+    border: none;
+    border-radius: 8px;
+    color: rgb(25, 133, 255);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type=text], input[type=password] {
+    background-color: azure;
+    border-radius: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
 
 footer {
-    border-radius: 10px;
+    width: 100%;
+    font-size: small;
+    text-align: center;
     margin: 10px;
-    padding: 5px 20px;
-    background-color: #CC99FF;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: #525252;
+    color: #ffffff;
 }
